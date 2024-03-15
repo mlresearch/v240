@@ -1,0 +1,79 @@
+---
+booktitle: Proceedings of the 18th Machine Learning in Computational Biology meeting
+conference_number: '18'
+shortname: MLCB
+start: 2023-11-30
+end: 2023-12-01
+published: 2024-03-15
+year: '2023'
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: MLCB2023
+month: 0
+cycles: false
+bibtex_editor: Knowles, David A. and Mostafavi, Sara
+editor:
+- given: David A.
+  family: Knowles
+- given: Sara
+  family: Mostafavi
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 18th Machine Learning in Computational Biology meeting
+    Held in Seattle, WA, USA on 30 November to 01 December 2023
+
+  Published as Volume 240 by the Proceedings of Machine Learning Research on 15 March 2024.
+
+  Volume Edited by:
+    David A. Knowles
+    Sara Mostafavi
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 30 Nov--01 Dec
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v240"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v240
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v240
+volume: '240'
+email: ''
+conference:
+  name: Machine Learning in Computational Biology
+  url: https://mlcb.github.io/
+  location: Seattle, WA, USA
+  dates:
+  - 2023-11-30
+  - 2023-12-01
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v240/mlcb2023.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v240/mlcb2023.bib
